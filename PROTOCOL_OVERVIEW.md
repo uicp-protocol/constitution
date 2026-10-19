@@ -8,4 +8,4 @@
 6. **Observatory** — optional GDS research, clearly separated from binding governance.
 7. **Hero Spirit Archive** — attributable contributions without spiritual certification.
 
-**Engineering status:** conceptual design only. No smart contract, chain, independent Suzy agent, or consensus implementation has been deployed.
+**Engineering status:** conceptual design only. No smart contract, chain, independent Suzie agent, or consensus implementation has been deployed.
