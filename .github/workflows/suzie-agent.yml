@@ -1,0 +1,53 @@
+name: SUZIE Agent — Research Digest
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 2 * * *'
+permissions:
+  contents: write
+  issues: read
+  pull-requests: write
+concurrency:
+  group: suzie-agent
+  cancel-in-progress: false
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Check configuration
+        id: config
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+        run: |
+          if [ -z "$OPENAI_API_KEY" ]; then
+            echo "enabled=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::Set OPENAI_API_KEY repository secret to activate SUZIE."
+          else
+            echo "enabled=true" >> "$GITHUB_OUTPUT"
+          fi
+      - name: Generate public issue digest
+        if: steps.config.outputs.enabled == 'true'
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: python3 agents/suzie_digest.py
+      - name: Propose digest via pull request
+        if: steps.config.outputs.enabled == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if [ ! -f reports/suzie-latest.md ]; then exit 0; fi
+          branch="suzie/digest-${GITHUB_RUN_ID}"
+          git config user.name "suzie-agent[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -b "$branch"
+          git add reports/suzie-latest.md
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "docs: propose SUZIE research digest"
+          git push origin "$branch"
+          gh pr create --title "SUZIE: proposed issue research digest" --body "Automated research draft. Not constitutional ratification. Requires human review. Sources are linked in the report." --base main --head "$branch"
