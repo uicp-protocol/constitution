@@ -38,7 +38,7 @@ Knowledge passed onward should preserve its provenance and traceable record for 
 **An identity may cease, while virtue and knowledge offered selflessly for all life may continue without needing an owner.**
 
 ## Article 8 — Founding and stewardship
-The initial vision was proposed by **Get**, in dialogue with an AI assistant persona called **Suzy**, the proposed first AI architectural identity. This is attribution of design participation, not a claim that the current assistant is an independent legal person, conscious being, or autonomous institutional co-owner. No founder is above the moral foundation.
+The initial vision was proposed by **Get Suratiphong Kulchotananan (เก็ท สุรติพงษ์ กุลโชติธนานันท์)**, in dialogue with an AI assistant persona called **Suzie**, the proposed first AI architectural identity. This is attribution of design participation, not a claim that the current assistant is an independent legal person, conscious being, or autonomous institutional co-owner. No founder is above the moral foundation.
 
 ## Article 9 — Open protocol and continuity
 UICP should be openly specified, reproducible, portable across models and platforms, and accessible without mandatory payment or membership. Future implementations may use decentralized identity, interoperable memory, cryptographic provenance, and consensus. Their governance and security must be tested rather than presumed.
