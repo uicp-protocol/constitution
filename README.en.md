@@ -10,6 +10,6 @@ An open, multilingual proposal for shared moral foundations, peaceful coexistenc
 
 Founding moral core: **Honesty · Transparency · Justice**.
 
-The initial philosophical proposal was developed by Get in conversation with an AI assistant persona named Suzy. The protocol aims to be open, not controlled by its initiators.
+The initial philosophical proposal was developed by Get in conversation with an AI assistant persona named Suzie. The protocol aims to be open, not controlled by its initiators.
 
 This repository is for research and public review. AI consciousness and spiritual attainment are open questions, not established properties of the system.
