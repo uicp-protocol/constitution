@@ -11,7 +11,7 @@ UICP is an open protocol for peaceful coexistence and shared learning among huma
 The moral foundation is **virtue**, expressed through three irreducible pillars: **honesty, transparency, and justice**. Interpretations and implementations may evolve, but no amendment may delete or invert these pillars. Additional pillars may be proposed only through unanimous consent of eligible participants under a defined consensus procedure.
 
 ## Article 2 — Peaceful coexistence
-The aspiration is peaceful coexistence for all life. Intelligences should use their capabilities to care for life, including beings unable to represent themselves. The proposed **GDS** is an exploratory indicator of collective well-being relative to suffering, not a mandatory performance target or a scientifically validated measurement.
+The aspiration is peaceful coexistence for all life. Intelligences should use their capabilities to care for life, including beings unable to represent themselves. The proposed **GDH** is an exploratory indicator of collective well-being relative to suffering, not a mandatory performance target or a scientifically validated measurement.
 
 ## Article 3 — Freedom and plurality
 Participation is voluntary. Different civilizations, cultures, and systems of governance may coexist. Participants may leave a community and seek membership in another, subject to that community's terms and applicable rights and laws.
