@@ -1,37 +1,37 @@
 # SUZIE V1 — Issue research digest
 
-Generated: 2026-10-19 08:41 UTC
+Generated: 2026-11-12 09:54 UTC
 
 **Draft only. Not consensus or ratification.**
 
-# Issue Summary
+# Issues Summary for UICP Constitution Repository
 
-1. **Activate SUZIE AI Agent V1** (#4)  
-   Aims to implement the SUZIE AI Agent V1 as documented in English and Thai. Key features include a least-privilege runtime, persistent provenance tracking, issue triage, pull request proposals with review gates, testing frameworks, audit logs, and clear operational status. It is emphasized that no autonomous constitution changes or declarations of consensus will occur yet.  
-   [Issue link](https://github.com/uicp-protocol/constitution/issues/4)
+## Issue #4: Activate SUZIE AI Agent V1 — runtime, memory and GitHub workflow  
+- **Summary:** Implementation of the SUZIE AI Agent V1 following its design documents (available in English and Thai). Features include a least-privilege runtime environment, persistent provenance tracking, issue triage, pull request proposals with review gates, testing, audit logs, and explicit operational status reporting. The issue clarifies that this does not mean an autonomous agent or constitutional changes are active.  
+- **URL:** [Issue #4](https://github.com/uicp-protocol/constitution/issues/4)
 
-2. **Research: GDH Measurement Specification v0.1** (#3)  
-   Calls for creating a transparent and testable definition of Gross Domestic Happiness (GDH). The specification should include human well-being evidence, uncertainty quantification, sampling methods, measures of inequality, and assessments of suffering. It excludes aggregating AI or non-human subjective experiences without validated justification.  
-   [Issue link](https://github.com/uicp-protocol/constitution/issues/3)
+## Issue #3: Research: GDH measurement specification v0.1  
+- **Summary:** Development of a transparent and testable definition for Gross Domestic Happiness (GDH). This should incorporate evidence based on human well-being, account for uncertainty, sampling methods, inequality, and suffering metrics. The proposal expressly forbids aggregating AI or non-human subjective experiences unless validated scientifically.  
+- **URL:** [Issue #3](https://github.com/uicp-protocol/constitution/issues/3)
 
-3. **Research: Define an Inclusive Consensus Specification** (#2)  
-   Proposes developing a protocol that clearly defines eligibility, identity verification, unanimous consent procedures for adding new pillars, handling abstentions, deadlocks, ensuring accessibility, and implementing anti-sybil protections. It stresses that deliberation procedures are distinct from constitutional ratification and that no implementation exists currently.  
-   [Issue link](https://github.com/uicp-protocol/constitution/issues/2)
+## Issue #2: Research: Define an inclusive consensus specification  
+- **Summary:** Proposing a protocol to specify eligibility, identity verification, unanimous consent for adding new pillars, handling abstentions and deadlocks, ensuring accessibility, and preventing sybil attacks. The specification aims to keep deliberation processes separate from constitutional ratification. There is no implementation yet.  
+- **URL:** [Issue #2](https://github.com/uicp-protocol/constitution/issues/2)
 
-4. **Welcome: Open Discussion on the UICP Founding Draft** (#1)  
-   Announces that public discussion on the UICP Draft v0.1 is open in multiple languages. Participants are encouraged to read both the English and Thai versions and submit feedback such as questions, criticisms, sources, or proposals. Inputs do not constitute binding votes. Privacy considerations are highlighted.  
-   [Issue link](https://github.com/uicp-protocol/constitution/issues/1)
+## Issue #1: Welcome: Open discussion on the UICP founding draft  
+- **Summary:** An open call inviting public discussion on the UICP Draft v0.1 in multiple languages. Contributions may include questions, criticisms, source references, or proposals. Participation is explicitly not equivalent to binding votes. Privacy is emphasized; no private information should be posted.  
+- **URL:** [Issue #1](https://github.com/uicp-protocol/constitution/issues/1)
 
-# Uncertainties
+---
 
-- The operational readiness and deployment timeline for SUZIE AI Agent V1 remain undefined.  
-- The specific metrics, data sources, and methodologies to be used for GDH measurement need elaboration and validation.  
-- How inclusivity and anti-sybil measures will be technically and procedurally enforced in consensus protocols is not yet specified.  
-- The degree to which public feedback will influence subsequent drafts or implementations of the constitution is unclear.
+# Uncertainties  
+- The exact operational details and security guarantees of the SUZIE AI Agent runtime are not defined beyond general requirements (Issue #4).  
+- The methodology and empirical basis for measuring GDH, especially how it will handle subjective well-being fairly and reliably, remain open (Issue #3).  
+- Practical implementation details and safeguards for the proposed inclusive consensus protocol are not yet provided (Issue #2).  
+- The degree of public engagement and future steps following the open discussion phase are unspecified (Issue #1).  
 
-# Research Next Steps
-
-- Review the SUZIE AI Agent V1 specification documents (English and Thai) to clarify functional and security design requirements.  
-- Survey existing well-being indicators and measurement frameworks to inform the GDH specification, evaluating their applicability and transparency.  
-- Analyze consensus protocols in related governance projects to identify best practices for eligibility, identity, and anti-sybil safeguards.  
-- Establish channels and criteria for incorporating public feedback into constitutional evolution while preserving integrity and openness.
+# Research Next Steps  
+- Review the full SUZIE AI Agent V1 design documents for implementation feasibility and security audit plans.  
+- Investigate existing human well-being metrics to inform the GDH specification, focusing on validated psychological and sociological research.  
+- Develop formal models and simulations for the proposed consensus protocol, including anti-sybil measures and unanimous consent mechanisms.  
+- Monitor public comments on the draft constitution to identify common concerns, potential improvements, and clarify voting or decision processes.
